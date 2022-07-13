@@ -1,0 +1,74 @@
+$backpage_color: #565656;
+$blue: #46A0D3;
+$white: #EEEEEE;
+$font: "Poppins", sans-serif;
+$black: #474747;
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $blue;
+    height: 100%;
+}
+
+.login {
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: $white;
+    width: 300px;
+    // height: 300px;
+    margin-top: 50vh;
+    margin-left: 50vw;
+    transform: translate(-50%, -50%);
+    -webkit-box-align: center;
+    /*! -ms-flex-align: center; */
+    align-items: center;
+    
+    h1 {
+        width: 100%;
+        display: inline-block;
+        color: $black;
+        font-size: 28px;
+        text-align: center;
+        // margin-left: 50%;
+        // transform: translateX(- 50%);
+        margin: 5% 0 0 0;
+    }
+
+    form {
+        padding: 5px;
+    }
+
+    #input {
+        padding: 0;
+        border-style: solid;
+        padding: 3% 5% 3% 5%;
+        margin: 5% 5% 0 5%;
+        display: inline-block;
+        width: 80%;
+        border-radius: 10px;
+        text-align: vertical;
+    }
+    #login {
+        
+        padding: 3% 0 3% 0;
+        border-style: none;
+        width: 100px;
+        // height: 30px;
+        margin: 5% 5% 0 50%;
+        transform: translateX(-50%);
+        box-shadow: none;
+        background-color: #7bce00;
+        border-radius: 10px;
+    }
+    a {
+        display: inline-block;
+        margin: 5% 5% 5% 50%;
+        transform: translateX(-50%);
+        font-size: 12px;
+        font-style: none;
+        text-decoration: none;
+    }
+}
